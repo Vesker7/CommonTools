@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTools", "CommonTools.csproj", "{242EB65C-957C-4BE8-AD6D-7D48F90B9AEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{50F1B935-44AB-4402-8BFF-610E3A39B414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonToolsTests", "test\CommonToolsTests.csproj", "{6431D4B8-7577-4554-9CF9-A0D982D6A679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{242EB65C-957C-4BE8-AD6D-7D48F90B9AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242EB65C-957C-4BE8-AD6D-7D48F90B9AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242EB65C-957C-4BE8-AD6D-7D48F90B9AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242EB65C-957C-4BE8-AD6D-7D48F90B9AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6431D4B8-7577-4554-9CF9-A0D982D6A679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6431D4B8-7577-4554-9CF9-A0D982D6A679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6431D4B8-7577-4554-9CF9-A0D982D6A679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6431D4B8-7577-4554-9CF9-A0D982D6A679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6431D4B8-7577-4554-9CF9-A0D982D6A679} = {50F1B935-44AB-4402-8BFF-610E3A39B414}
+	EndGlobalSection
+EndGlobal
